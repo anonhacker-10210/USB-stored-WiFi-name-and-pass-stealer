@@ -75,7 +75,7 @@ This repository contains a PowerShell script and associated files to automatical
 [SamLogic AutoRun USB Creator](https://www.samlogic.net/usb-autorun-creator/usb-autorun-creator.htm) is a tool that simplifies the creation of autorun USB drives. Follow these steps to use it:
 
 1. **Download and Install:**
-   - Download SamLogic AutoRun USB Creator from the [official website](https://www.samlogic.net/demos/demos.htm).
+   - Download SamLogic AutoRun USB Creator from the [official website](https://www.samlogic.net/demos/demos.htm) or [softonic website](https://usb-autorun-creator.en.softonic.com).
    - Install the software on your computer.
 
 2. **Prepare the USB Drive:**
