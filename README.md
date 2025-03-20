@@ -29,6 +29,7 @@ This repository contains a PowerShell script and associated files to automatical
 - `autorun.vbs`: VBScript to run the PowerShell script silently.
 - `wifi_extractor.ps1`: PowerShell script to extract Wi-Fi passwords.
 - `README.md`: This file.
+- `LICENSE`: License file for the project.
 
 ---
 
