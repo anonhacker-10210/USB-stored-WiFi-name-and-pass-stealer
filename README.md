@@ -51,6 +51,53 @@ This repository contains a PowerShell script and associated files to automatical
 - On another system, open the USB drive and navigate to the hidden `_usb` directory to view the `wifi_passwords.txt` file.
 ---
 
+# Setup Instructions
+
+### Method 1: Manual Setup
+1. **Prepare the USB Drive:**
+   - Format the USB drive (if necessary) and ensure it is empty.
+   - Copy the following files to the **root of the USB drive**:
+     - `autorun.inf`
+     - `autorun.vbs`
+     - `wifi_extractor.ps1`
+
+2. **Insert the USB Drive:**
+   - Insert the USB drive into a Windows 10/11 machine.
+   - The script will run automatically and save the Wi-Fi passwords to a hidden directory (`_usb`) on the USB drive.
+
+3. **Retrieve the Data:**
+   - After the script runs, safely eject the USB drive.
+   - On another system, open the USB drive and navigate to the hidden `_usb` directory to view the `wifi_passwords.txt` file.
+
+---
+
+### Method 2: Using SamLogic AutoRun USB Creator
+[SamLogic AutoRun USB Creator](https://www.samlogic.net/usb-autorun-creator/usb-autorun-creator.htm) is a tool that simplifies the creation of autorun USB drives. Follow these steps to use it:
+
+1. **Download and Install:**
+   - Download SamLogic AutoRun USB Creator from the [official website](https://www.samlogic.net/demos/demos.htm).
+   - Install the software on your computer.
+
+2. **Prepare the USB Drive:**
+   - Insert the USB drive into your computer.
+   - Open SamLogic AutoRun USB Creator.
+
+3. **Configure the Autorun Menu:**
+   - In the software, select your USB drive from the list of available drives.
+   - Add the `wifi_extractor.ps1` script as an action to run automatically when the USB is inserted.
+   - Optionally, customize the autorun menu with icons, labels, and other settings.
+
+4. **Build the Autorun USB:**
+   - Click the "Build" button to create the autorun functionality on the USB drive.
+   - The software will generate the necessary files (e.g., `autorun.inf`) and configure the USB drive.
+
+5. **Test the USB Drive:**
+   - Insert the USB drive into a Windows 10/11 machine.
+   - The script should run automatically, and the Wi-Fi passwords will be saved to the hidden `_usb` directory.
+
+---
+
+
 ## File Structure
 
 USB Drive (E:)
